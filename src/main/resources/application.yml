@@ -3,9 +3,9 @@ spring:
     active: default
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/comon?autoReconnect=true
-    username: dohun
-    password: qorehgns31@
+    url: jdbc:mysql://us-cdbr-east-05.cleardb.net/heroku_029d5e6c5aa26ee?reconnect=true
+    username: b874efd9292b51
+    password: df40558c
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     open-in-view: false
